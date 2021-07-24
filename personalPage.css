@@ -1,0 +1,117 @@
+body {
+  background-color: #e9edc9;
+}
+
+.top {
+  height: 50px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom: black solid;
+}
+
+.bottom {
+  height: 50px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 20px;
+  border-top: black solid;
+}
+
+h1 {
+  text-align: center;
+  font-size: 65px;
+  font-family: 'Dancing Script', cursive;
+}
+h2 {
+  text-align: center;
+  font-size:50px;
+  font-family: 'Dancing Script', cursive;
+}
+h3 {
+  font-size: 45px
+}
+#Camille {
+  margin-left: 25%;
+  width: 50%;
+  border-radius: 50%;
+}
+#Atlanta {
+  width: 75%;
+  margin-left: 12%;
+  margin-top: 75px;
+}
+
+#woman-computer{
+  transform:translatey(-500px);
+}
+#woman-photo {
+  width:50%;
+  margin-left: 50%;
+}
+#career-goals{
+  /*border: 2px solid black;*/
+  font-size: 45px;
+}
+#career-answer{
+  font-size:30px;
+  margin-right: 35px;
+  margin-left: 5px;
+  width: 50%;
+}
+a {
+  font-style: italic;
+  /*border: 2px solid black;*/
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: green;
+  transform: translatey(-.25em);
+  transition: .35s .2s;
+}
+li {
+  margin-top: 10px;
+}
+blockquote {
+  text-align: center;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
+.cali {
+  font-style: italic;
+  font-weight: 700;
+}
+.GC {
+  font-size: 20px;
+}
+
+.answer {
+  font-size: 30px;
+}
+section {
+  margin-top: 50px;
+  text-align: center;
+}
+button{
+  background: none;
+  color: black;
+  border: 2px solid #22223b;
+  padding: .25em .25em;
+  font-size: 3em;
+}
+button:hover{
+  border: 2px solid #e9edc9;
+  transform: translatey(-.25em);
+  transition: .35s .2s;
+  box-shadow: 10px 10px 10px black;
+}
